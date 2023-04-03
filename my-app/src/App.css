@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Josefin+Sans&family=Lato&family=Philosopher&family=Poppins&family=Roboto:wght@100;300;400&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier Prime', monospace;
+
+}
+
+nav{
+  background-color: rgb(41, 8, 98);
+  color: rgb(172, 233, 6);
+  padding: 15px;
+  text-align: center;
+}
+.container{
+  background-color: rgb(255, 250, 232);
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 4vmax 8vmax;
+  box-sizing: border-box;
+}
+.container > h1{
+  text-align: center;
+  font-size: 2.5rem;
+}
+.container > form {
+  display: flex;
+  flex-direction: column;
+}
+input,textarea,button{
+  padding: 25px;
+  border: 1px solid rgba(0,0,0,0.214);
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+button{
+  padding: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  color: beige;
+  border-radius: 50px;
+  font-size: 25px;
+}
+.task{
+display: flex;
+align-items: center;
+background-color: rgb(233, 245, 255);
+padding: 20px;
+border-radius:15px;
+margin: 20px 0;
+}
+.task > div{
+  width: 100%;
+ }
+ .task span{
+   color: rgb(178, 137, 137);
+ }
+
+
+ .task  button{
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 127, 127);
+ }
+ .task  button:hover{
+  background-color: red;
+ }
